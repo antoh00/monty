@@ -4,7 +4,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
+/*
+*Below are the prototypes
+*
+*/
+void pall(stack_t **stack, unsigned int line_number);
+void push(stack_t **stack, unsigned int line_number);
+int line_count(file);
 
 /*
  *Below are the data structures
